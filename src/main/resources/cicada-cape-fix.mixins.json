@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.enjarai.capefix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CapeHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

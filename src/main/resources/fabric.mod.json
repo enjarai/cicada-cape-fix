@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "cicada-cape-fix",
+	"version": "${version}",
+	"name": "CICADA Cape Fix",
+	"description": "Removes the ugly 'pls update cicada' cape from older versions of CICADA",
+	"authors": [
+		"Definitely not enjarai"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cicada-cape-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.enjarai.capefix.Cicadacapefix"
+		]
+	},
+	"mixins": [
+		"cicada-cape-fix.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.16",
+		"java": ">=8",
+		"cicada": "*"
+	}
+}
